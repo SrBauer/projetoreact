@@ -91,7 +91,7 @@ export default class Main extends Component {
         <Tarefas
         handleEdit={this.handleEdit}
         handleDelete={this.handleDelete}
-        Tarefas={tarefas || []} // Garantindo que tarefas nunca seja undefined
+        tarefas={tarefas}
         />
 
       </div>
